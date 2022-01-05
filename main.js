@@ -1,9 +1,11 @@
 // Bài 1//
-function trungbinh() {
-    let vatly =  Number(document.getElementById("vatly").value);
-    let hoahoc =  Number(document.getElementById("hoahoc").value);
-    let sinhhoc =  Number(document.getElementById("sinhhoc").value);
-    let result = (vatly + hoahoc + sinhhoc)/3;
-    document.getElementById("tb").innerText = result
-
+function diemtb() {
+    let a,b,c;
+    a = document.getElementById("vatly").value;
+    b = document.getElementById("hoahoc").value;
+    c = document.getElementById("sinhhoc").value;
+    let tb = (a+b+c)/3;
+    document.getElementById("in").innerText = "Điểm trung bình bằng: " + tb;
 }
+
+

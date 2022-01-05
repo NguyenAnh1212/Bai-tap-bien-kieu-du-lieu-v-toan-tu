@@ -3,28 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <title>Bài tập biến, kiểu dữ liệu và toán tử.</title>
+
 </head>
 <body>
-<h1> Chương trình nhập điểm và tính điểm trung bình cho sinh viên.</h1>
+<h1> Chương trình nhập điểm và tính điểm trung bình và điểm tổng cho sinh viên.</h1>
 
 
         Điểm Môn Vật Lý:<br>
-        <input placeholder="Nhập điểm môn Vật Lý" id ="vatly" >
+<label for="vatly"></label>
+<input type="number" placeholder="Nhập điểm môn Vật Lý" id ="vatly" value="number">
         <br>
         <br>
         Điểm Môn Hóa Học:<br>
-        <input placeholder="Nhập điểm môn Hóa Học" id ="hoahoc">
+<label for="hoahoc"></label>
+<input type="number" value="number" id="hoahoc" placeholder="Nhập điểm môn Hóa Học">
         <br>
         <br>
         Điểm Môn Sinh Học: <br>
-        <input placeholder="Nhập điểm môn Sinh Học" id ="sinhhoc">
+<label for="sinhhoc"></label>
+<input type="number" value="number" placeholder="Nhập điểm môn Sinh Học" id ="sinhhoc">
         <br>
         <br>
-        Điểm trung bình 3 môn:<br>
-        <button id="tb" type="button" onclick="trungbinh()">Kết quả</button>
+        <p id="in">Điểm trung bình 3 môn:</p><br>
+<button type="button" value="on" onclick="diemtb()">Kết quả</button>
 
 
 
 
+
+
+<script src="main.js"></script>
 </body>
 </html>
